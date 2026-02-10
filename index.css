@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+nav{
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    padding: 40px;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+nav img{
+    width: 22%;
+    margin-top: -76px;
+}
+nav .down{
+    display: flex;
+    font-size: 20px;
+    margin-top: 5px;
+}
+nav .down i{
+    margin-inline: 11px;
+}
+nav input{
+    height: 40px;
+    width: 320px;
+    outline: none;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(230, 209, 209);
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    margin-top: -65px;
+    font-weight: bolder;
+}
+.sec-nav p:hover{
+    color: rgb(221, 44, 73);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px;
+}
+.main img{
+    height: 500px;
+    width: 900px;
+}
+.main .text{
+    width: 500px;
+    background-color: rgb(248, 228, 228);
+
+}
+.main .text h1{
+    font-size: 50px;
+    margin-top: 11px;
+    margin-left: 10px;
+
+}
+
+.main .text .txt{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main .text .txt h2{
+    margin-inline: 11px;
+    font-size: 22px;
+    margin-top: 22px;
+
+}
+.main .text button{
+    height: 45px;
+    width: 300px;
+    background-color: rgb(246, 26, 62);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    margin-top: 33px;
+    margin-left: 22px;
+
+}
+.main .text button:hover{
+    color:rgb(239, 27, 62);
+    background-color: transparent;
+    border:3px solid rgb(248, 21, 59);   
+}
+/* .top-cat #top{ */
+    /* text-decoration: underline; */
+/* } */
+.top-cat h1{
+    text-align: center;
+    margin-top: 44px;
+    padding: 22px;
+    /* text-decoration: underline; */
+}
+.top-cat .fs{
+    
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 183, 195);
+    margin-left: 80px;
+}
+
+.top-cat .fs img{
+    height: 35%;
+    width: 80%;
+}
+.top-cat .fs h1{
+    font-size: 35px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    background-color: rgb(247, 185, 195);
+}
+.seller h1{
+    text-align: center;
+    margin-top: 33px;
+    padding: 33px;
+    font-size: 44px;
+
+}
+.seller img{
+    height: 35%;
+    width: 85%;
+    margin-left: 76px;
+
+}
+h1{
+    text-align: center;
+    font-size:44px;
+    margin-top: 33px;
+    padding: 33px;
+}
+.card{
+    margin-top: 33px;
+    /* background-color: rgb(238, 131, 148); */
+    
+
+}
+/* .crd{ */
+    /* display: inline-flex; */
+    /* justify-content: space-between; */
+    /* text-align: center; */
+/* } */
+/* .crd .img{ */
+    /* border: 1px solid rgb(63, 59, 59); */
+/* } */
+/* .crd .img img{ */
+    /* width: 50%; */
+/* } */
+/* .card .crd .img #hoo{ */
+    /* height:50; */
+/* } */
+.img{
+    border: 1px solid black;
+    margin: 10px 20px;
+}
+.img a{
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left:40px ;
+  
+}
+.crd{
+    display: flex;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 55px;
+    background-color: rgb(190, 178, 178);
+    margin-top: -1px;
+    margin-left: -10px;
+}
+.foot-icon {
+    display: flex;
+    gap: 10px;
+}
+.footer .list .icons i{
+    margin-inline: 11px;
+    font-size: 33px;
+}
+.footer .list .fc{
+    color: rgb(0, 110, 255);
+}
+.footer .list .inst{
+    color: rgb(253, 40, 40)
+}
+.footer .list .twt{
+    color: rgb(4, 42, 90);
+}
+.footer .list .yt{
+    color: rgb(255, 0, 0)
+}
