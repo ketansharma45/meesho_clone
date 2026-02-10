@@ -1,40 +1,46 @@
 *{
     margin: 0;
     padding: 0;
-    text-transform: capitalize;
+    box-sizing:border-box;
 }
 nav{
-    height: 100px;
-    width: 60%;
+    height:90px;
+    width: 98%;
     display: flex;
     justify-content: space-between;
-    margin-top: 11px;
-    padding: 40px;
+    align-items:center;
+    margin:11px 10px 30px 10px;
+  
 }
-.icon{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    text-align: center;
-}
+
 nav img{
-    width: 22%;
-    margin-top: -76px;
+ width: 10%;
+  height:80px;
 }
 nav .down{
     display: flex;
     font-size: 20px;
-    margin-top: 5px;
+   
 }
 nav .down i{
     margin-inline: 11px;
 }
 nav input{
     height: 40px;
-    width: 320px;
+    width: 45%;
     outline: none;
 }
+nav .pro{
+    width:5%;
+    display:flex;
+    justify-content:space-between;
+}
 
+nav .cart{
+    width:4%;
+    display:flex;
+    justify-content:space-between;
+}
 .sec-nav{
     display: flex;
     justify-content: space-around;
@@ -42,7 +48,6 @@ nav input{
     border-left: none;
     border-right: none;
     padding: 20px;
-    margin-top: -65px;
     font-weight: bolder;
 }
 .sec-nav p:hover{
